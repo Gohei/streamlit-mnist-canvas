@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="streamlit_mnist_canvas",
-    version="0.1.0",
+    version="0.1.1",
     author="Gohei Kusumi",
     author_email="gohei.kusumi@gmail.com",
     description="A Streamlit component tailored for handwriting digit recognition using the MNIST dataset. This component allows users to draw digits on a canvas, facilitating integration with various machine learning models for digit recognition. It's ideal for educational, development, and testing purposes within Streamlit applications.",
