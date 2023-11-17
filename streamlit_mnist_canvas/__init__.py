@@ -31,7 +31,7 @@ def _data_url_to_bytes(data_url: str) -> bytes:
 
 def _bytes_to_pillow(image_bytes: bytes) -> Image.Image:
     image = Image.open(BytesIO(image_bytes))
-    return image.convert("L").resize((28, 28), Image.ANTIALIAS)
+    return image.convert("L").resize((28, 28))
 
 
 def _pillow_to_array(image: Image.Image) -> np.ndarray:
